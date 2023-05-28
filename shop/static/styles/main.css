@@ -1,7 +1,7 @@
 /* FrontPage */
 
 body {
-	background: url("../images/bg.png") repeat;
+	background: url("/static/images/bg.png") repeat;
 	font-family: Verdana, Arial, Tahoma;
 	margin: 0;
 	padding: 0;
@@ -99,7 +99,7 @@ body {
 }
 
 #topmenu {
-	background: url("../images/bg_topmenu.png") repeat-x;
+	background: url("/static/images/bg_topmenu.png") repeat-x;
 	border: 1px solid #60be15;
 	height: 31px;
 	padding-top: 10px;
@@ -151,12 +151,12 @@ body {
 }
 
 #search .input_left {
-	background: url("../images/search_left.png") no-repeat;
+	background: url("/static/images/search_left.png") no-repeat;
 	width: 30px;
 }
 
 #search .input_right {
-	background: url("../images/search_right.png") no-repeat;
+	background: url("/static/images/search_right.png") no-repeat;
 	width: 7px;
 }
 
@@ -200,7 +200,7 @@ body {
 }
 
 #left .header {
-	background: url("../images/left_header.png") no-repeat;
+	background: url("/static/images/left_header.png") no-repeat;
 	height: 32px;
 }
 
@@ -235,7 +235,7 @@ body {
 }
 
 #left .bottom {
-	background: url("../images/left_bottom.png") no-repeat;
+	background: url("/static/images/left_bottom.png") no-repeat;
 	height: 6px;
 }
 
@@ -252,7 +252,7 @@ body {
 }
 
 #right .header {
-	background: url("../images/right_header.png") no-repeat;
+	background: url("/static/images/right_header.png") no-repeat;
 	height: 43px;
 	width: 184px;
 }
@@ -267,12 +267,12 @@ body {
 }
 
 #right table td.section_bg {
-	background: url("../images/section_bg.png") repeat-x top left;
+	background: url("/static/images/section_bg.png") repeat-x top left;
 	width: 592px;
 }
 
 #right table td.section_right {
-	background: url("../images/section_right.png") no-repeat;
+	background: url("/static/images/section_right.png") no-repeat;
 	width: 3px;
 }
 
@@ -314,7 +314,7 @@ body {
 }
 
 .link_cart {
-	background: url("../images/cart.png") no-repeat;
+	background: url("/static/images/cart.png") no-repeat;
 	display: block;
 	height: 27px;
 	margin: 0 auto;
@@ -322,7 +322,7 @@ body {
 }
 
 .link_cart:hover {
-	background: url("../images/cart_active.png") no-repeat;
+	background: url("/static/images/cart_active.png") no-repeat;
 }
 
 p.price {
@@ -339,7 +339,7 @@ p.price {
 }
 
 #footer {
-	background: url("../images/footer_bg.png") repeat-x bottom;
+	background: url("/static/images/footer_bg.png") repeat-x bottom;
 }
 
 #footer #pm table {
@@ -347,7 +347,7 @@ p.price {
 }
 
 #footer #copy {
-	background: url("../images/footer.png") no-repeat 2% bottom;
+	background: url("/static/images/footer.png") no-repeat 2% bottom;
 	height: 54px;
 	padding-top: 85px;
 }
@@ -475,11 +475,11 @@ p.price {
 }
 
 #cart #cart_top {
-	background: url("../images/cart_top.png") no-repeat;
+	background: url("/static/images/cart_top.png") no-repeat;
 }
 
 #cart #cart_bottom {
-	background: url("../images/cart_bottom.png") no-repeat;
+	background: url("/static/images/cart_bottom.png") no-repeat;
 	height: 10px;
 }
 
@@ -488,11 +488,11 @@ p.price {
 }
 
 #cart .cart_left {
-	background: url("../images/cart_left.png") repeat-y;
+	background: url("/static/images/cart_left.png") repeat-y;
 }
 
 #cart .cart_right {
-	background: url("../images/cart_right.png") repeat-y top right;
+	background: url("/static/images/cart_right.png") repeat-y top right;
 }
 
 #cart .img img {
