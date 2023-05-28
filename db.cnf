@@ -1,7 +1,7 @@
 # my.cnf
 [client]
-database = django_larisa
+database = db
 hots = localhost
-user = sergey
-password = OlgaFeb10
+user = user
+password = pass
 default-character-set = utf8
