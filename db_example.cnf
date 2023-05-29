@@ -1,7 +1,7 @@
 # my.cnf
 [client]
-database = db
+database = database
 hots = localhost
 user = user
-password = pass
+password = password
 default-character-set = utf8

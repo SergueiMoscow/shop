@@ -88,6 +88,8 @@ DATABASES = {
         'OPTIONS': {
             'read_default_file': os.path.join(BASE_DIR, "db.cnf"),
             "init_command": "SET default_storage_engine=INNODB",
+            'charset': 'utf8mb4',
+            'use_unicode': True,
         }
     }
 }
@@ -134,3 +136,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
